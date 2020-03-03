@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     public void doMyProgress(View view){
         AsyncTask pdTask=new AsyncTask(this);
         pdTask.execute();
-        
         }
     }
 
